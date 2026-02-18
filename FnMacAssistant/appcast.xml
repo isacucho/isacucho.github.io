@@ -5,6 +5,7 @@
         <item>
             <title>2.0b5</title>
             <pubDate>Wed, 18 Feb 2026 12:00:08 -0600</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>2.0.0.5</sparkle:version>
             <sparkle:shortVersionString>2.0b5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
