@@ -4,12 +4,12 @@
         <title>FnMacAssistant</title>
         <item>
             <title>2.0b4</title>
-            <pubDate>Wed, 18 Feb 2026 13:09:41 -0600</pubDate>
+            <pubDate>Wed, 18 Feb 2026 13:59:56 -0600</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>2.0.0.4</sparkle:version>
+            <sparkle:version>2004</sparkle:version>
             <sparkle:shortVersionString>2.0b4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b4.zip" length="3124427" type="application/octet-stream" sparkle:edSignature="RIgov3MwL6m6mRxBPsWy569mmJL6yz61cHLX8QHOqos4yone9uyDdrRePfNK+kZAw7P95wY4jBo4jjZFFxJOBA=="/>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b4.zip" length="3124428" type="application/octet-stream" sparkle:edSignature="93my5esLK6zgRIkTcQmGt429i+2iI045NXficq/85/5GDhFo7Bqw1E/wj7OHA+Bk0zNhDg1PWSDlcAhSVeXMAg=="/>
         </item>
     </channel>
 </rss>
