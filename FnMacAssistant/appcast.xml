@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FnMacAssistant</title>
+        <item>
+            <title>2.0b5</title>
+            <pubDate>Wed, 18 Feb 2026 12:00:08 -0600</pubDate>
+            <sparkle:version>2.0.0.5</sparkle:version>
+            <sparkle:shortVersionString>2.0b5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/FnMacAssistant%20v2.0b5.zip" length="3124432" type="application/octet-stream" sparkle:edSignature="7eZ4mpKraps+cOqCo3uSJoye2C73QTeZA55AygndLmnuKxtcy0rLSGZff6g0MBjvA99vzZ21p+YrmGZYZ+O0Aw=="/>
+        </item>
+    </channel>
+</rss>
