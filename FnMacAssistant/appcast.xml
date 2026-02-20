@@ -3,18 +3,6 @@
     <channel>
         <title>FnMacAssistant</title>
         <item>
-            <title>2.0b4</title>
-            <pubDate>Wed, 18 Feb 2026 13:59:56 -0600</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>2.0b4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b4.zip" length="3124428" type="application/octet-stream" sparkle:edSignature="93my5esLK6zgRIkTcQmGt429i+2iI045NXficq/85/5GDhFo7Bqw1E/wj7OHA+Bk0zNhDg1PWSDlcAhSVeXMAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant2004-5.delta" sparkle:deltaFrom="5" length="272586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JGTeHySg1DJZS2MVG0W5qllNGBOhH2kX/xZ3YTMZRaZa6gaeghGz8j7e3ZTR/bxo10b0FRdMrnsdYjbtKsiPDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.0b5</title>
             <pubDate>Fri, 20 Feb 2026 17:12:35 -0600</pubDate>
             <sparkle:channel>beta</sparkle:channel>
