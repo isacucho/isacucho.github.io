@@ -10,7 +10,28 @@
             <sparkle:shortVersionString>2.0rc</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://isacucho.github.io/FnMacAssistant/FnMacAssistant%20v2.0rc.md</sparkle:releaseNotesLink>
+            <description><![CDATA[<h2>FnMacAssistant v2.0 Release Candidate</h2>
+
+<h3>New tab: Home</h3>
+Inspired by nugget's home tab. This new tab contains:
+- Banner with app name and links to the discord and github.
+- Expandable get started miniguide, with links to readme for more in-depth guide.
+- Support development tab, with my creator code for those who would like to help me mantain this project.
+- App credits, for those who have significantly provided to the app (tweak, fort-dl, update assistant, etc.)
+
+Also added option to change startup tab, so the app will automatically open on the selected section.
+
+<h3>Bug fixes and other small updates</h3>
+- Updated FAQ to mention the Update Assistant
+- Added startup tab selector to settings
+- Update assistant now fully downloads files to temp dir first, so that it won't touch the container until it installs. 
+- Modified Update assistant's Fortnite detection. Now it won't block you from opening Fortnite, but will ask you to close the app before installing.
+- Implemented custom temp dir system with selector in settings.
+- Added warning for when permissions are required.
+- 'X' button now fully closes the app.
+- Fixed glitch where FAQ cards will collapse seconds after being opened.
+- Updated Sparkle to v1.9.0
+]]></description>
             <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0rc.zip" length="3443566" type="application/octet-stream" sparkle:edSignature="cbAyUuF2QPYSjizNUfrJdUd3xjHMOVbxrXs1GFNtAzDo6+WduCJnTPMxNduXOO6i8+Y3NB8NIa379dTNe9BgBQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant7-6.delta" sparkle:deltaFrom="6" length="520854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BFy3U4YB6fvnXR2d2CZZ9ZRgdoxz21PcMHpQYJHJwrL2fbe8STHJuCBd4meCUzyQu6lEKF0NB5GtmmFdHR7VBQ=="/>
@@ -24,11 +45,8 @@
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>2.0b6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b6.zip" length="3311008" type="application/octet-stream" sparkle:edSignature="TyHzk3whAepTBDk3DDyMe04esdZQXuETlV3Gzo8hP9zWJX0UYwjpirRdjGe58UuET+0Hv1x8rQ8Qdzgbp6qODQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant6-5.delta" sparkle:deltaFrom="5" length="272714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="azVeA8beXw1YoqYCfpHYZHQJe2A3unF2A0sB2waDbFJUfwWznTZO9uiutzO+LVzIILT+fV2VQQVSibbB3uT5Aw=="/>
-            </sparkle:deltas>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b6.zip" length="3311008" type="application/octet-stream" sparkle:edSignature="TyHzk3whAepTBDk3DDyMe04esdZQXuETlV3Gzo8hP9zWJX0UYwjpirRdjGe58UuET+0Hv1x8rQ8Qdzgbp6qODQ=="/>
         </item>
         <item>
             <title>2.0b5</title>
@@ -37,8 +55,8 @@
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>2.0b5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b5.zip" length="3157206" type="application/octet-stream" sparkle:edSignature="a8i+VDOLAHTMGnsvU4a3UCwGms+BBvVCGbYF8B8oiU+Y7HFB3cZ7DVsZxaeeFK/rR1pcYsTEYlX8UwKDZvQKDg=="/>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b5.zip" length="3157206" type="application/octet-stream" sparkle:edSignature="a8i+VDOLAHTMGnsvU4a3UCwGms+BBvVCGbYF8B8oiU+Y7HFB3cZ7DVsZxaeeFK/rR1pcYsTEYlX8UwKDZvQKDg=="/>
         </item>
     </channel>
 </rss>
