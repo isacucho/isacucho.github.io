@@ -1,6 +1,6 @@
-## FnMacAssistant v2.0 Release Candidate
+<h2>FnMacAssistant v2.0 Release Candidate</h2>
 
-### New tab: Home
+<h3>New tab: Home</h3>
 Inspired by nugget's home tab. This new tab contains:
 - Banner with app name and links to the discord and github.
 - Expandable get started miniguide, with links to readme for more in-depth guide.
@@ -9,7 +9,7 @@ Inspired by nugget's home tab. This new tab contains:
 
 Also added option to change startup tab, so the app will automatically open on the selected section.
 
-### Bug fixes and other small updates
+<h3>Bug fixes and other small updates</h3>
 - Updated FAQ to mention the Update Assistant
 - Added startup tab selector to settings
 - Update assistant now fully downloads files to temp dir first, so that it won't touch the container until it installs. 
