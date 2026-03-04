@@ -3,6 +3,21 @@
     <channel>
         <title>FnMacAssistant</title>
         <item>
+            <title>2.0rc</title>
+            <pubDate>Wed, 04 Mar 2026 10:15:28 -0600</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>2.0rc</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://isacucho.github.io/FnMacAssistant/FnMacAssistant%20v2.0rc.md</sparkle:releaseNotesLink>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0rc.zip" length="3443566" type="application/octet-stream" sparkle:edSignature="cbAyUuF2QPYSjizNUfrJdUd3xjHMOVbxrXs1GFNtAzDo6+WduCJnTPMxNduXOO6i8+Y3NB8NIa379dTNe9BgBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant7-6.delta" sparkle:deltaFrom="6" length="520854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BFy3U4YB6fvnXR2d2CZZ9ZRgdoxz21PcMHpQYJHJwrL2fbe8STHJuCBd4meCUzyQu6lEKF0NB5GtmmFdHR7VBQ=="/>
+                <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant7-5.delta" sparkle:deltaFrom="5" length="650602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="535wByt8/a7qssNgJpsn1TtAXwAKiU58qALJiyY1k8WRGUQu3CcKmOrZxJUO63SMfdmBcwJpgl3TXBPyVO3YCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0b6</title>
             <pubDate>Wed, 25 Feb 2026 23:02:24 -0600</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -13,21 +28,7 @@
             <sparkle:deltas>
                 <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant6-5.delta" sparkle:deltaFrom="5" length="272714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="azVeA8beXw1YoqYCfpHYZHQJe2A3unF2A0sB2waDbFJUfwWznTZO9uiutzO+LVzIILT+fV2VQQVSibbB3uT5Aw=="/>
             </sparkle:deltas>
-            <description><![CDATA[<h2>FnMacAssistant v2.0 beta 6</h2>
-<br>
-<h3>New tab: Data Manager</h3>
-- Delete selected bundles<br>
-- Create archive of selected bundles<br>
-- Import archive button<br>
-- Delete Fortnite and all data button<br>
-- Data relocator with external drive support (Requires external drive to be high speed)<br>
-<br>
-<h3>Bug fixes and other small updates</h3>
-- Fixed a bug where placeholder files were not renaming correctly, causing connection errors and 50B updates that never complete.<br>
-- Clicking on download bubble on sidebar now takes you to the respective tab<br>
-<br>
-(Plus other bug fixes I might have forgotten about lol)
-]]></description>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
         </item>
         <item>
             <title>2.0b5</title>
@@ -37,6 +38,7 @@
             <sparkle:shortVersionString>2.0b5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
             <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0b5.zip" length="3157206" type="application/octet-stream" sparkle:edSignature="a8i+VDOLAHTMGnsvU4a3UCwGms+BBvVCGbYF8B8oiU+Y7HFB3cZ7DVsZxaeeFK/rR1pcYsTEYlX8UwKDZvQKDg=="/>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
         </item>
     </channel>
 </rss>
