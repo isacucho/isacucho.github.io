@@ -13,7 +13,7 @@
 
 <h2>This update brings various changes, minor bugfixes, and some QOL improvements</h2>
 
-<h3>Change-log</h3>
+<h3>Changelog</h3>
 
 <h4>Container auto-select</h4>
 - App will now verify container on startup if none is selected. If multiple are found that meet the conditions, it’ll ask the user if they want to verify, which opens the game and then verifies which log was modified.<br>
