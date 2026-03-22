@@ -3,22 +3,47 @@
     <channel>
         <title>FnMacAssistant</title>
         <item>
+            <title>2.0.1</title>
+            <pubDate>Sun, 22 Mar 2026 01:02:57 -0600</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h1>FnMacAssistant v2.0.1</h1>
+
+<h2>This update brings various changes, minor bugfixes, and some QOL improvements</h2>
+
+<h3>Change-log</h3>
+
+<h4>Container auto-select</h4>
+- App will now verify container on startup if none is selected. If multiple are found that meet the conditions, it’ll ask the user if they want to verify, which opens the game and then verifies which log was modified.<br>
+- Updated multiple containers found tab to use this new logic<br>
+- Game assets and update assistant now call the update selector if no container is selected.<br>
+
+<h4>Compatibility fixes for Fortnite v40</h4>
+- Move all Lang packs to base-game in Update Assistant<br>
+- Fixed Update assistant not fetching optional Lang packs properly<br>
+- Added fallback to update assistant in case current logic stops working in a future update<br>
+
+<h4>Other patches and QOL improvements</h4>
+- Added warning when on incompatible macOS version (currently supports 15.1 - 26.3.1.)<br>
+- In order to avoid duplicate downloads, Update Assistant now checks if nsurlsessiond is running every few seconds if it restarts by itself.<br>
+- Fort-dl list tags command now runs whenever the game assets tab is opened, and added new refresh button. to Game Assets tab.<br>
+- Updated credits alignment in the home tab.
+<br><br>
+Thanks for using FnMacAssistant, and if you'd like to support future development, maintenance, and updates like this one, consider using code ISACUCHO in the item shop or in the epic games store!]]></description>
+            <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0.1.zip" length="4653154" type="application/octet-stream" sparkle:edSignature="IYnQDJffgXig/LZOBQ7ZKs8SQAPal910xIwlP8z1+bYryw4IGp/1I0wpAtpDPyxREPHzVjPruuhdPz1VezLnDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant9-8.delta" sparkle:deltaFrom="8" length="303714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jZqXaQJX4u0476jjs+lFfZHBNGnwl9K+xCh6OzTIQ4zDspBUcyv9Jpjic4BZM5yr307dGoWKPvtOCoBZzkEoAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0</title>
             <pubDate>Wed, 04 Mar 2026 23:36:30 -0600</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>FnMacAssistant v2.0</h2>
-
-<h3>This should only be visible to those coming from the beta :)</h3>
-
-<h4>Changes from RC:</h4>
-- Updated app icon<br>
-- Patching now also detects /Applications/iOS/Fortnite.app<br>
-- Changed '--download-only' checkbox label<br>
-<br><br>
-That's all folks. Enjoy full release!]]></description>
             <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant%20v2.0.zip" length="4577388" type="application/octet-stream" sparkle:edSignature="dojoHt8a433YSbH7G5objgmaLNh/XDHONkhFKdcDgoavg5YqzavT77swmaH6uxWxuWg0H3fb5RZTPLXlKRJLBw=="/>
             <sparkle:deltas>
                 <enclosure url="https://isacucho.github.io/FnMacAssistant/files/FnMacAssistant8-7.delta" sparkle:deltaFrom="7" length="966290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IyqBq8U1+CizJHp/QsnSmNFtcE89Rt2AMJY9kHIUZBbhIdgs8gsGpSWS6HQVt5uyfFQFdtUy151G/dPad2OiBA=="/>
