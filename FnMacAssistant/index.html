@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FnMacAssistant — Fortnite for Apple Silicon Macs</title>
+  <meta name="description" content="FnMacAssistant helps you download the latest Fortnite IPA and apply the necessary patches to run it natively on Apple Silicon Macs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img src="assets/icon.png" alt="FnMacAssistant Icon" class="nav-icon-img">
+        <span>FnMacAssistant</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#howitworks">How It Works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#credits">Credits</a></li>
+        <li><a href="https://fnmacassistant.gitbook.io" target="_blank">Wiki</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://discord.gg/nfEBGJBfHD" target="_blank" class="btn btn-ghost" id="nav-discord-btn">Discord</a>
+        <a href="https://github.com/isacucho/FnMacAssistant/releases" target="_blank" class="btn btn-primary" id="nav-download-btn">Download</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Apple Silicon Only
+      </div>
+      <h1 class="hero-title">
+        <span class="fn-text">Fn</span>Mac
+        <br />Assistant
+      </h1>
+      <p class="hero-subtitle">Fortnite for Apple Silicon Macs.</p>
+      <p class="hero-desc">
+        Download the latest Fortnite IPA, patch it on-device, and play natively on your M-series Mac — no cloud gaming required.
+      </p>
+      <div class="hero-chips">
+        <span class="chip"><span class="chip-icon">󰚩</span> Apple M-chip Required</span>
+        <span class="chip"><span class="chip-icon">󰀶</span> macOS 15.1+</span>
+        <span class="chip"><span class="chip-icon">󰄬</span> Free &amp; Open Source</span>
+      </div>
+      <div class="hero-buttons">
+        <a href="https://github.com/isacucho/FnMacAssistant/releases" target="_blank" class="btn btn-primary btn-lg" id="hero-download-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Latest
+        </a>
+        <a href="https://fnmacassistant.gitbook.io" target="_blank" class="btn btn-ghost btn-lg" id="hero-wiki-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Wiki
+        </a>
+        <a href="https://github.com/isacucho/FnMacAssistant" target="_blank" class="btn btn-ghost btn-lg" id="hero-github-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    
+    <div class="hero-visual" style="display:none"><div class="app-window">
+        <div class="window-chrome">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="window-title">FnMacAssistant</span>
+        </div>
+        <div class="window-body">
+          <div class="window-sidebar">
+            <div class="sidebar-brand">FnMacAssistant</div>
+            <ul class="sidebar-nav">
+              <li class="active"><span>⌂</span> Home</li>
+              <li><span>↓</span> IPA Downloads</li>
+              <li><span>✦</span> Patch</li>
+              <li><span>↻</span> Update Assistant</li>
+              <li><span>◈</span> Game Assets</li>
+              <li><span>⬡</span> Data Manager</li>
+              <li><span>?</span> FAQ</li>
+              <li><span>⚙</span> Settings</li>
+            </ul>
+          </div>
+          <div class="window-main">
+            <div class="win-hero-card">
+              <div class="win-app-icon">Fn</div>
+              <div class="win-app-info">
+                <h2>FnMacAssistant</h2>
+                <p>Fortnite for Apple Silicon Macs.</p>
+                <div class="win-btns">
+                  <button class="win-btn discord">Join the Discord</button>
+                  <button class="win-btn github">Open GitHub</button>
+                </div>
+              </div>
+            </div>
+            <div class="win-card">Get Started <span class="win-chevron">›</span></div>
+            <div class="win-support-card">
+              <div class="win-support-header">
+                <span class="heart">♥</span> Support Development
+              </div>
+              <p class="win-support-desc">Support by using the creator code in the Item Shop or the Epic Games Store.</p>
+              <div class="win-creator-code">Creator code <span class="code-badge">ISACUCHO</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="features">
+    <div class="container">
+      <div class="section-label">What it does</div>
+      <h2 class="section-title">Everything you need to run<br /><span class="gradient-text">Fortnite on Mac</span></h2>
+      <div class="features-grid">
+        <div class="feature-card" id="feature-ipa">
+          <div class="feature-icon" style="--c:#7c3aed">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <h3>IPA Downloads</h3>
+          <p>Quickly fetch the latest Fortnite IPA with version descriptions, size info, and customisable download paths.</p>
+        </div>
+        <div class="feature-card" id="feature-patch">
+          <div class="feature-icon" style="--c:#2563eb">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3>On-Device Patching</h3>
+          <p>Applies required entitlements to Fortnite's provisioning file entirely on-device with live console output.</p>
+        </div>
+        <div class="feature-card" id="feature-update">
+          <div class="feature-icon" style="--c:#059669">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          </div>
+          <h3>Update Assistant</h3>
+          <p>Watches Fortnite's download log and automatically downloads new game chunks — no manual work needed.</p>
+        </div>
+        <div class="feature-card" id="feature-assets">
+          <div class="feature-icon" style="--c:#d97706">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Game Assets</h3>
+          <p>Powered by fort-dl — download only the game modes you want (Battle Royale, Creative, LEGO, Festival, and more).</p>
+        </div>
+        <div class="feature-card" id="feature-data">
+          <div class="feature-icon" style="--c:#0891b2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3>Data Manager</h3>
+          <p>View and manage all installed game bundles and UEFN maps, with total storage tracking and easy cleanup.</p>
+        </div>
+        <div class="feature-card" id="feature-free">
+          <div class="feature-icon" style="--c:#dc2626">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Free &amp; Open Source</h3>
+          <p>100% free. Support continued development by using the Fortnite creator code <strong>ISACUCHO</strong> in the Item Shop.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="screenshots">
+    <div class="container">
+      <div class="section-label">The App</div>
+      <h2 class="section-title">Clean, powerful<br /><span class="gradient-text">native macOS UI</span></h2>
+      <div class="screenshots-layout">
+        <div class="screenshot-tabs" id="screenshotTabs">
+          <button class="stab active" data-tab="home" id="stab-home">Home</button>
+          <button class="stab" data-tab="ipa" id="stab-ipa">IPA Downloads</button>
+          <button class="stab" data-tab="patch" id="stab-patch">Patch</button>
+          <button class="stab" data-tab="update" id="stab-update">Update Assistant</button>
+          <button class="stab" data-tab="assets" id="stab-assets">Game Assets</button>
+          <button class="stab" data-tab="data" id="stab-data">Data Manager</button>
+          <button class="stab" data-tab="faq" id="stab-faq">FAQ</button>
+          <button class="stab" data-tab="settings" id="stab-settings" style="display:none">Settings</button>
+        </div>
+        <div class="screenshot-display">
+          <div class="screenshot-frame" id="screenshotFrame">
+            <img src="assets/screenshots/home.png" alt="Home tab" class="screenshot-img active" id="ss-home" />
+            <img src="assets/screenshots/ipa.png"  alt="IPA Downloads tab" class="screenshot-img" id="ss-ipa" />
+            <img src="assets/screenshots/patch.png" alt="Patch tab" class="screenshot-img" id="ss-patch" />
+            <img src="assets/screenshots/update.png" alt="Update Assistant tab" class="screenshot-img" id="ss-update" />
+            <img src="assets/screenshots/assets.png" alt="Game Assets tab" class="screenshot-img" id="ss-assets" />
+            <img src="assets/screenshots/data.png" alt="Data Manager tab" class="screenshot-img" id="ss-data" />
+            <img src="assets/screenshots/faq.png" alt="FAQ tab" class="screenshot-img" id="ss-faq" />
+            <img src="assets/screenshots/settings.png" alt="Settings tab" class="screenshot-img" id="ss-settings" />
+            <div class="screenshot-placeholder" id="ss-placeholder">
+              <div class="placeholder-icon">📸</div>
+              <p>Screenshot coming soon</p>
+            </div>
+          </div>
+          <div class="screenshot-desc" id="screenshotDesc">
+            The <strong>Home</strong> tab shows your quick links, support development, and credits at a glance.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="howitworks">
+    <div class="container">
+      <div class="section-label">Setup Guide</div>
+      <h2 class="section-title">Up and running in<br /><span class="gradient-text">four steps</span></h2>
+      <div class="steps-grid">
+        <div class="step-card" id="step-1">
+          <div class="step-num">01</div>
+          <h3>Install a Sideloader</h3>
+          <p>Download and install <a href="https://sideloadly.io/" target="_blank">Sideloadly</a> or <a href="https://github.com/claration/Impactor/releases/latest" target="_blank">PlumeImpactor</a> — this is used to install the Fortnite IPA onto your Mac.</p>
+        </div>
+        <div class="step-card" id="step-2">
+          <div class="step-num">02</div>
+          <h3>Download FnMacAssistant</h3>
+          <p>Grab the latest release from <a href="https://github.com/isacucho/FnMacAssistant/releases" target="_blank">GitHub</a>. Grant Terminal <strong>Full Disk Access</strong> in System Settings → Privacy &amp; Security for full functionality.</p>
+        </div>
+        <div class="step-card" id="step-3">
+          <div class="step-num">03</div>
+          <h3>Download &amp; Install IPA</h3>
+          <p>Use the <strong>IPA Downloads</strong> tab to fetch the latest Fortnite IPA, then install it via your sideloader using your Apple ID.</p>
+        </div>
+        <div class="step-card" id="step-4">
+          <div class="step-num">04</div>
+          <h3>Patch &amp; Play</h3>
+          <p>Hit <strong>Apply Patch</strong> in the Patch tab. Use the <strong>Update Assistant</strong> or <strong>Game Assets</strong> tab to get your game data — then launch Fortnite!</p>
+        </div>
+      </div>
+      <div class="note-box">
+        <span class="note-icon">⚠️</span>
+        <p>Sideloaded apps expire every <strong>7 days</strong>. To re-enable Fortnite: delete the app, reinstall via your sideloader, and re-patch with FnMacAssistant.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="requirements">
+    <div class="container">
+      <div class="reqs-card">
+        <div class="reqs-left">
+          <div class="section-label">Requirements</div>
+          <h2 class="reqs-title">What you need</h2>
+          <p class="reqs-sub">FnMacAssistant is designed specifically for Apple Silicon hardware.</p>
+        </div>
+        <div class="reqs-right">
+          <div class="req-item" id="req-chip">
+            <div class="req-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="6" height="6"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/><rect x="2" y="2" width="20" height="20" rx="2"/></svg>
+            </div>
+            <div>
+              <strong>Apple Silicon Mac</strong>
+              <span>M1, M2, M3, or M4 chip (Intel not supported)</span>
+            </div>
+          </div>
+          <div class="req-item" id="req-macos">
+            <div class="req-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            </div>
+            <div>
+              <strong>macOS 15.1 or later</strong>
+              <span>Sequoia required for full compatibility</span>
+            </div>
+          </div>
+          <div class="req-item" id="req-appleid">
+            <div class="req-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div>
+              <strong>Apple ID</strong>
+              <span>Required for sideloading via Sideloadly or PlumeImpactor</span>
+            </div>
+          </div>
+          <div class="req-item" id="req-sideloader">
+            <div class="req-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </div>
+            <div>
+              <strong>Sideloadly or PlumeImpactor</strong>
+              <span>One sideloading app needed to install the IPA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="faq">
+    <div class="container">
+      <div class="section-label">Common Questions</div>
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+
+        <div class="faq-item" id="faq-1">
+          <button class="faq-q" id="faq-q-1">
+            I'm getting a connection or storage error when opening Fortnite.
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-1">
+            <p>You need to download game data. Open FnMacAssistant and go to the <strong>Update Assistant</strong> tab, then click <strong>Start Update</strong> and don't touch anything until it finishes. Alternatively, use the <strong>Game Assets</strong> tab to install data manually.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-2">
+          <button class="faq-q" id="faq-q-2">
+            How do I update Fortnite?
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-2">
+            <ol>
+              <li>Download the updated IPA from the <strong>IPA Downloads</strong> tab.</li>
+              <li>Install it through Sideloadly or PlumeImpactor using the same Apple ID.</li>
+              <li>Go to the <strong>Patch</strong> tab and click <strong>Apply Patch</strong>.</li>
+              <li>If prompted, go to System Settings → Privacy &amp; Security and click Open Anyway.</li>
+              <li>Download updated game files via Update Assistant or Game Assets.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-3">
+          <button class="faq-q" id="faq-q-3">
+            "Fortnite" cannot be opened because the developer did not intend it to run on this Mac.
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-3">
+            <p>This happens because sideloaded apps expire every <strong>7 days</strong>. To fix it:</p>
+            <ol>
+              <li>Delete Fortnite.app from Applications.</li>
+              <li>Reinstall via Sideloadly or PlumeImpactor.</li>
+              <li>Apply the patch again using FnMacAssistant.</li>
+              <li>Open Fortnite.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-4">
+          <button class="faq-q" id="faq-q-4">
+            FnMacAssistant cannot find Fortnite's container.
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-4">
+            <p>Grant Full Disk Access to FnMacAssistant:</p>
+            <ol>
+              <li>System Settings → Privacy &amp; Security → Full Disk Access.</li>
+              <li>Add FnMacAssistant and enable it.</li>
+              <li>Restart FnMacAssistant and patch again.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-5">
+          <button class="faq-q" id="faq-q-5">
+            Fortnite keeps crashing even after patching.
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-5">
+            <p>This usually means your macOS version isn't supported. Update macOS and try again.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-6">
+          <button class="faq-q" id="faq-q-6">
+            What's the difference between the IPAs?
+            <span class="faq-chevron">›</span>
+          </button>
+          <div class="faq-a" id="faq-a-6">
+            <p>You can see what each IPA contains when selecting it in the <strong>IPA Downloads</strong> tab.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="credits">
+    <div class="container">
+      <div class="section-label">The Team</div>
+      <h2 class="section-title">Credits</h2>
+      <p class="credits-sub">FnMacAssistant is built on the shoulders of incredible contributors.</p>
+      <div class="credits-grid">
+        <div class="credit-card main" id="credit-isacucho">
+          <div class="credit-avatar">is</div>
+          <div class="credit-info">
+            <a href="https://github.com/isacucho" target="_blank" class="credit-name">isacucho</a>
+            <span class="credit-role">Main Developer</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-rt2746">
+          <div class="credit-avatar">ri</div>
+          <div class="credit-info">
+            <span class="credit-name">rt2746 &amp; Inventor</span>
+            <span class="credit-role">FnMacTweak</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-sneaky">
+          <div class="credit-avatar">sf</div>
+          <div class="credit-info">
+            <a href="https://github.com/f1shy-dev" target="_blank" class="credit-name">Sneakyf1shy</a>
+            <span class="credit-role">fort-dl</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-altermine">
+          <div class="credit-avatar">al</div>
+          <div class="credit-info">
+            <a href="https://github.com/altermine" target="_blank" class="credit-name">altermine</a>
+            <span class="credit-role">Update Assistant</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-victorwads">
+          <div class="credit-avatar">vw</div>
+          <div class="credit-info">
+            <a href="https://github.com/victorwads" target="_blank" class="credit-name">VictorWads</a>
+            <span class="credit-role">External Drive Support</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-jasonsika">
+          <div class="credit-avatar">ja</div>
+          <div class="credit-info">
+            <a href="https://jasonsika.com/" target="_blank" class="credit-name">Jasonsika</a>
+            <span class="credit-role">App Icon</span>
+          </div>
+        </div>
+        <div class="credit-card" id="credit-abc">
+          <div class="credit-avatar">ab</div>
+          <div class="credit-info">
+            <span class="credit-name">abc</span>
+            <span class="credit-role">Website Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="cta">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-orb"></div>
+        <h2>Ready to play Fortnite on Mac?</h2>
+        <p>Download FnMacAssistant and get into the game natively on your Apple Silicon Mac.</p>
+        <div class="cta-buttons">
+          <a href="https://github.com/isacucho/FnMacAssistant/releases" target="_blank" class="btn btn-primary btn-lg" id="cta-download-btn">Download Now</a>
+          <a href="https://discord.gg/nfEBGJBfHD" target="_blank" class="btn btn-ghost btn-lg" id="cta-discord-btn">Join the Discord</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/icon.png" alt="FnMacAssistant Icon" class="nav-icon-img">
+          <span>FnMacAssistant</span>
+        </div>
+        <p class="footer-desc">An assistant that helps you download the latest Fortnite IPA and applies the necessary patches for it to work properly.</p>
+        <div class="footer-links">
+          <a href="https://github.com/isacucho/FnMacAssistant" target="_blank">GitHub</a>
+          <a href="https://discord.gg/nfEBGJBfHD" target="_blank">Discord</a>
+          <a href="https://fnmacassistant.gitbook.io" target="_blank">Wiki</a>
+          <a href="https://buymeacoffee.com/isacucho" target="_blank">Support</a>
+          <a href="https://github.com/isacucho/FnMacAssistant/releases" target="_blank">Releases</a>
+        </div>
+        <p class="footer-note">Not affiliated with Epic Games. Fortnite is a trademark of Epic Games, Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
